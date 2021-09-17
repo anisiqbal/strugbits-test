@@ -1,0 +1,2 @@
+# strugbits-test
+test
