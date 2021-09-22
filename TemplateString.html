@@ -11,9 +11,9 @@
     // console.log(" My name is " + firstName + ". My last name is " +  lastName  +  "." );
 
     //ES6
-    // let firstName = "Muhammad Anis";
-    // let lastName = "Shaikh";
-    // console.log(` My name is  ${firstName}. My last name is  ${lastName}. ` );
+    let firstName = "Muhammad Anis";
+    let lastName = "Shaikh";
+    console.log(` My name is  ${firstName}. My last name is  ${lastName}. ` );
 
     //ES5
     // let a = 20;
@@ -21,16 +21,36 @@
     // console.log('Fifty is ' + (a + b) + ' and\nnot ' + (2 * a + b ) + ' . ');
 
     //ES6
-    let a = 20;
-    let b = 30;
-    console.log(`Fifty is ${a+b} and 
-    not ${2*a+b}.  `);
+    // let a = 20;
+    // let b = 30;
+    // console.log(`Fifty is ${a+b} and 
+    // not ${2*a+b}.  `);
+
+    //ES6 Strings.Methods
+    // console.log(`${firstName}`.startsWith('M'));
+    // console.log(`${firstName}`.endsWith('h'));
+
+    //.includes method mean apke  name ki spelling k under jo words hen mean Muhammad Anis poore name me koi bhi word .includes('ani') type kiya wo Muhammad Anis k poore name k ander hen to wo true show kare ga agar  Muhammad Anis k ilawa kuch or words .includes me paas karo ge to false ae ga.
+    // console.log(`${firstName}`.includes('ani'));
+    // console.log(`${firstName}${lastName} `.repeat(10));
+
+    // OR 2nd EASY WAY
+
+    const fName =`${firstName}`;
+    const fullName =`${firstName}${lastName}`;
+
+
+    console.log(fName.startsWith('M'));
+    console.log(fName.endsWith('h'));
+
+    //.includes method mean apke  name ki spelling k under jo words hen mean Muhammad Anis poore name me koi bhi word .includes('ani') type kiya wo Muhammad Anis k poore name k ander hen to wo true show kare ga agar  Muhammad Anis k ilawa kuch or words .includes me paas karo ge to false ae ga.
+    console.log(fName.includes('ani'));
+    console.log(fullName.repeat(10));
 
 
 
 
     
-
 
 
 
