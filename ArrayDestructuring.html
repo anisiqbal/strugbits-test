@@ -1,0 +1,47 @@
+<script>
+    //ES5
+    // const myproglang = ['js', 'php', 'c', 'python', 'java'];
+
+    // var top1 =  myproglang[0];
+    // var top2 =  myproglang[1];
+    // var top3 =  myproglang[2];
+
+    // console.log("My fav prog lang is " + top1 );
+
+    //ES5 jahan per apko itne sare lines likhne par rahe the just apko array k elements or uske item  ko store karne k liye in seprate variables.
+    // Now ab ap sab kam kar sakte ho just because of ES6 new feature Array destructuring
+
+    //ES6
+
+    const myproglang = ['js', 'php', 'c', 'python', 'java'];
+
+    // let [ top1 , top2 , top3 , top4, top5] =  myproglang;
+    // console.log("My fav prog lang is " + top1 );
+
+    // Practice question?  
+    // yahan to hum direct declear bhi kar rahe hen or value assign bhi karwa derahe hen. 
+    // I want to only the first and the last item of an array?
+
+    // console.log(myproglang.length);
+
+    // let [top1,,,,toplast] = myproglang;
+    // console.log(`my fav program language is ${top1} and my least fav is ${toplast}. `);
+
+
+    // yahan per me phele hie value ko decleare kar raha hoon variables ko decleare kar raha hoon 
+    //Now me unki values assign karana chahoon .
+    // to humne phele hie decleare kardiya bad me value assign kar wa raha hoon using ARRAY DESTRUCTURING.
+    let top1,top2;
+
+    [top1,top2] = myproglang;
+    console.log(`My favprogram language is ${top1} and my 2nd fav language is ${top2}. `);
+
+
+
+
+
+
+
+ 
+
+</script>
